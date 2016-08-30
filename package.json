@@ -1,0 +1,19 @@
+{
+  "name": "parking-scraper",
+  "private": false,
+  "version": "0.0.1",
+  "description": "a minimalistic parking data scraper",
+  "keywords": [],
+  "dependencies": {
+    "request": "latest",
+    "cheerio": "latest",
+    "url": "latest"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "author": "Tyler Petresky",
+  "license": ""
+}
